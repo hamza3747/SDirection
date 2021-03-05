@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundshadeonLoginandRegisterpage"
+    tools:context=".LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--    This below linear view and above scroll view will be used for scrolling the screen.-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundshadeonLoginandRegisterpage">
+
+
+            <!--For fitting the other items in this view in a vertical form.
+            we will give margin to this layout so that it contain items away from borders
+            The margin values that are given are as follows
+            Start = 40dp
+            End = 40dp
+            Top = 60dp
+            Bottom = 30dp
+            -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <!--ImageView Properties are as follows
+                Margin Top = 20dp-->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mainiconpng" />
+
+                <!--TextView Properties are as follows
+                Size = 60sp
+                Gravity = center
+                Color = white
+                Style = bold
+                Fontfamily = amarante
+                Margine bottom = 30dp (only for second textview)-->
+                <TextView
+                    android:id="@+id/tvStudent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Student"
+                    android:textColor="@color/Header_Text_Color"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDirection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Direction"
+                    android:textColor="@color/Header_Text_Color"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <!--    1. Make a drawable file for button gradient
+                        2. Apply gradient to the button
+                        3. Text size = 18sp
+                        4. style = bold
+                        5. text color is white
+                        6. Top margin (Register button) = 20dp
+                        7. Note: change the value of primary color into "null" in the themes/themes.xml-->
+                <EditText
+                    android:id="@+id/evUserName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/textview_background"
+                    android:ems="10"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/evEnterPassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/textview_background"
+                    android:ems="10"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:hint="Enter password"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btnLogin3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_gradient"
+                    android:fontFamily="@font/amaranth"
+                    android:text="Login"
+                    android:textColor="@color/Whitecolor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnLogin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="center"
+                    android:text="Create Account? Register"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

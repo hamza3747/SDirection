@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/welcome_page_Fragment"
+            android:icon="@drawable/ic_welcome_page_24"
+            android:title="Home"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/user_mgt_Fragment"
+            android:icon="@drawable/ic_user_manage_2_24"
+            android:title="User Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/class_mgt_Fragment"
+            android:icon="@drawable/ic_class_room_preferences_24"
+            android:title="Class Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/course_mgt_Fragment"
+            android:icon="@drawable/ic_course_24"
+            android:title="Course Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/timetable_mgt_Fragment"
+            android:icon="@drawable/ic_time_24"
+            android:title="Timetable Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/make_announcement_Fragment"
+            android:icon="@drawable/ic_announce_24"
+            android:title="Make Announcement"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/generate_result_card_Fragment"
+            android:icon="@drawable/ic_result_card_24"
+            android:title="Generate Resultcard"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/activity_mgt_Fragment"
+            android:icon="@drawable/ic_activity_24"
+            android:title="Activity Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/attendance_mgt_Fragment"
+            android:icon="@drawable/ic_attendance_24"
+            android:title="Attendance Management"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/digital_diary_Fragment"
+            android:icon="@drawable/ic_diary_24"
+            android:title="Digital Diary"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/evaluation_center_Fragment"
+            android:icon="@drawable/ic_grades_24"
+            android:title="Evaluation Center"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/notes_center_Fragment"
+            android:icon="@drawable/ic_attachment_24"
+            android:title="Notes Center"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/chat_box_Fragment"
+            android:icon="@drawable/ic_chatbox_24"
+            android:title="Chat Box"
+            android:fontFamily="@font/amaranth"/>
+        <item
+            android:id="@+id/performance_scale_Fragment"
+            android:icon="@drawable/ic_scale_24"
+            android:title="Performance Scale"
+            android:fontFamily="@font/amaranth"/>
+
+    </group>
+
+    <item android:title="Upcoming">
+        <menu>
+            <item
+                android:id="@+id/online_quiz"
+                android:icon="@drawable/ic_online_quiz_24"
+                android:title="Online Quiz"
+                android:fontFamily="@font/amaranth"/>
+        </menu>
+    </item>
+</menu>

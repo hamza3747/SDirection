@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#443C20"
+        android:endColor="#e8a564">
+    </gradient>
+
+    <corners
+        android:radius="6dp">
+    </corners>
+</shape>
+
+
+
+    <!--
+    1. click on drawable
+    2. new
+    3. drawable resource file
+    4. enter name
+    5. change "selector to shape"
+    6. add gradient
+    7. start and end color
+
+    Now add corners to make the buttons shape a little rounded
+    1. add corners
+    2. giver radius = 6dp
+    -->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/welcome_page_Fragment">
+
+
+    <fragment
+        android:id="@+id/user_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.UserManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_user_management" />
+
+    <fragment
+        android:id="@+id/class_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.ClassManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_class_management" />
+
+    <fragment
+        android:id="@+id/course_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.CourseManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_course_management" />
+    <fragment
+        android:id="@+id/timetable_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.TimetableManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_timetable_management" />
+    <fragment
+        android:id="@+id/make_announcement_Fragment"
+        android:name="com.example.sdirection.fragments.MakeAnnouncementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_make_announcement" />
+    <fragment
+        android:id="@+id/generate_result_card_Fragment"
+        android:name="com.example.sdirection.fragments.GenerateResultCardFragment"
+        android:label=""
+        tools:layout="@layout/fragment_generate_result_card" />
+    <fragment
+        android:id="@+id/activity_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.ActivityManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_activity_management" />
+    <fragment
+        android:id="@+id/attendance_mgt_Fragment"
+        android:name="com.example.sdirection.fragments.AttendanceManagementFragment"
+        android:label=""
+        tools:layout="@layout/fragment_attendance_management" />
+    <fragment
+        android:id="@+id/digital_diary_Fragment"
+        android:name="com.example.sdirection.fragments.DigitalDiaryFragment"
+        android:label=""
+        tools:layout="@layout/fragment_digital_diary" />
+    <fragment
+        android:id="@+id/evaluation_center_Fragment"
+        android:name="com.example.sdirection.fragments.EvaluationCenterFragment"
+        android:label=""
+        tools:layout="@layout/fragment_evaluation_center" />
+    <fragment
+        android:id="@+id/notes_center_Fragment"
+        android:name="com.example.sdirection.fragments.NotesCenterFragment"
+        android:label=""
+        tools:layout="@layout/fragment_notes_center" />
+    <fragment
+        android:id="@+id/chat_box_Fragment"
+        android:name="com.example.sdirection.fragments.ChatBoxFragment"
+        android:label=""
+        tools:layout="@layout/fragment_chat_box" />
+    <fragment
+        android:id="@+id/performance_scale_Fragment"
+        android:name="com.example.sdirection.fragments.PerformanceScaleFragment"
+        android:label=""
+        tools:layout="@layout/fragment_performance_scale" />
+    <fragment
+        android:id="@+id/welcome_page_Fragment"
+        android:name="com.example.sdirection.fragments.WelcomePageFragment"
+        android:label=""
+        tools:layout="@layout/fragment_welcome_page" />
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.example.sdirection.fragments.AddUserFragment"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+</navigation>
